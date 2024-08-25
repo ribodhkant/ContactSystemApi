@@ -1,0 +1,28 @@
+{
+  "ContactInfo": [
+    {
+      "Id": 2,
+      "FirstName": "Mukesh",
+      "LastName": "Kumar",
+      "Email": "abc@gmail.com"
+    },
+    {
+      "Id": 4,
+      "FirstName": "Ribodh",
+      "LastName": "Kant",
+      "Email": "ribodh@gmail.com"
+    },
+    {
+      "Id": 6,
+      "FirstName": "Amit",
+      "LastName": "Kumar",
+      "Email": "Ak@gmail.com"
+    },
+    {
+      "Id": 7,
+      "FirstName": "Ravi",
+      "LastName": "kumar",
+      "Email": "ravi@gmail.com"
+    }
+  ]
+}

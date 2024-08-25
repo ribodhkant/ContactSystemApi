@@ -65,3 +65,5 @@ C:\Users\hp\ContactManagementSystemApp\obj\Debug\net6.0\refint\ContactManagement
 C:\Users\hp\ContactManagementSystemApp\obj\Debug\net6.0\ContactManagementSystem.pdb
 C:\Users\hp\ContactManagementSystemApp\obj\Debug\net6.0\ContactManagementSystem.genruntimeconfig.cache
 C:\Users\hp\ContactManagementSystemApp\obj\Debug\net6.0\ref\ContactManagementSystem.dll
+C:\Users\hp\ContactManagementSystemApp\bin\Debug\net6.0\JsonFile\test.json
+C:\Users\hp\ContactManagementSystemApp\obj\Debug\net6.0\ContactManagementSystem.sourcelink.json

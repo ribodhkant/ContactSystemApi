@@ -1,3 +1,6 @@
+using ContactManagementSystem.BusinessLib;
+using ContactManagementSystem.ExceptionHandler;
+using ContactManagementSystem.NewFolder;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -17,6 +20,7 @@ builder.Services.AddCors(options =>
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddTransient<IContactService, ContactService>();
 builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo
@@ -40,6 +44,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseGlobleExpHandler();
 app.UseCors("AllowSpecificOrigins");
 app.UseAuthorization();
 
